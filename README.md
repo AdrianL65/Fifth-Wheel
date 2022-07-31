@@ -6,6 +6,9 @@ The design consist of making an intergraded attachment that holds its battery, m
 
 My main role in this project was to program the microcontroller (KL25Z) to establish the motor’s velocity according to the user’s input (via a potentiometer or via the velocity logged into the system by the user’s stroke on the main wheels; the election between the two types of input is determined via a button) and receive data from a set of sensors (accelerometer, inductive sensors, encoder, temperature sensor, potentiometer, 2 buttons) to detect if the user is on a ramp and grant additional acceleration; to identify if the wheel is an undesirable angle to allow smooth traveling; to monitor the battery life of the whole system; and to measure the motor driver’s temperature. Additionally programmed a set of actuators (LEDs, motor itself) to ensure the user is notified of any safety hazards and the system does not operate while under dangerous parameters. Protocols used include IC2 and UART. My second role was the design of the user’s control panel as well as the 3D printing process.  
 
+# Linked videos
+[Fifth Wheel functionality](https://youtu.be/RnXhuDlJasQ)
+
 # Images
 
 ![](Ensamble%20final.JPG)
